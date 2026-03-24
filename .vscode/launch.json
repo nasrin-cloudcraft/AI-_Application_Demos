@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Pipeline",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/Rag with AzureAISearch_Foundry/run_pipeline.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/Rag with AzureAISearch_Foundry",
+            "envFile": "${workspaceFolder}/Rag with AzureAISearch_Foundry/.env",
+            "python": "C:/Users/nsultana/AppData/Local/Programs/Python/Python314/python.exe"
+        }
+    ]
+}
